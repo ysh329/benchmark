@@ -1,0 +1,107 @@
+INFO:root:network: alexnet
+INFO:root:device: gpu(0)
+/usr/local/lib/python2.7/dist-packages/mxnet-0.11.0-py2.7.egg/mxnet/module/base_module.py:65: UserWarning: Data provided by label_shapes don't match names specified by label_names ([] vs. ['softmax_label'])
+  warnings.warn(msg)
+[08:28:15] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  1, image/sec: 631.472576
+INFO:root:batch size  2, image/sec: 1166.315555
+INFO:root:batch size  4, image/sec: 1858.559433
+INFO:root:batch size  8, image/sec: 2921.511149
+INFO:root:batch size 16, image/sec: 4632.190785
+INFO:root:batch size 32, image/sec: 6117.852380
+INFO:root:device: cpu(0)
+INFO:root:batch size  1, image/sec: 3.853397
+INFO:root:batch size  2, image/sec: 4.187981
+INFO:root:batch size  4, image/sec: 4.642470
+INFO:root:batch size  8, image/sec: 4.898587
+INFO:root:batch size 16, image/sec: 5.637961
+INFO:root:batch size 32, image/sec: 5.660363
+INFO:root:network: vgg
+INFO:root:device: gpu(0)
+INFO:root:batch size  1, image/sec: 294.318534
+INFO:root:batch size  2, image/sec: 367.816544
+[08:31:29] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  4, image/sec: 497.698460
+INFO:root:batch size  8, image/sec: 625.469404
+INFO:root:batch size 16, image/sec: 865.308969
+INFO:root:batch size 32, image/sec: 937.780855
+INFO:root:device: cpu(0)
+INFO:root:batch size  1, image/sec: 1.992403
+INFO:root:batch size  2, image/sec: 2.835486
+INFO:root:batch size  4, image/sec: 2.931414
+INFO:root:batch size  8, image/sec: 3.249995
+INFO:root:batch size 16, image/sec: 3.380946
+INFO:root:batch size 32, image/sec: 3.198591
+INFO:root:network: inception-bn
+INFO:root:device: gpu(0)
+[08:36:51] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  1, image/sec: 91.064711
+[08:36:52] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  2, image/sec: 175.231045
+[08:36:53] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  4, image/sec: 323.257933
+[08:36:54] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  8, image/sec: 538.528719
+INFO:root:batch size 16, image/sec: 830.866823
+[08:36:56] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size 32, image/sec: 1065.519424
+INFO:root:device: cpu(0)
+INFO:root:batch size  1, image/sec: 1.756501
+INFO:root:batch size  2, image/sec: 2.507456
+INFO:root:batch size  4, image/sec: 2.808387
+INFO:root:batch size  8, image/sec: 3.228143
+INFO:root:batch size 16, image/sec: 3.534820
+INFO:root:batch size 32, image/sec: 3.936750
+INFO:root:network: inception-v3
+INFO:root:device: gpu(0)
+[08:41:30] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  1, image/sec: 50.529826
+[08:41:33] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  2, image/sec: 100.942786
+[08:41:36] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  4, image/sec: 173.780085
+[08:41:39] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  8, image/sec: 274.298420
+[08:41:42] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size 16, image/sec: 397.222438
+INFO:root:batch size 32, image/sec: 487.091346
+INFO:root:device: cpu(0)
+INFO:root:batch size  1, image/sec: 1.052084
+INFO:root:batch size  2, image/sec: 1.278734
+INFO:root:batch size  4, image/sec: 1.405667
+INFO:root:batch size  8, image/sec: 1.636380
+INFO:root:batch size 16, image/sec: 1.739066
+INFO:root:batch size 32, image/sec: 1.813193
+INFO:root:network: resnet-50
+INFO:root:device: gpu(0)
+[08:51:05] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  1, image/sec: 106.810360
+INFO:root:batch size  2, image/sec: 199.183379
+[08:51:08] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size  4, image/sec: 324.769758
+INFO:root:batch size  8, image/sec: 462.887429
+[08:51:11] src/operator/././cudnn_algoreg-inl.h:112: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:batch size 16, image/sec: 601.002171
+INFO:root:batch size 32, image/sec: 694.491259
+INFO:root:device: cpu(0)
+INFO:root:batch size  1, image/sec: 1.487960
+INFO:root:batch size  2, image/sec: 1.931337
+INFO:root:batch size  4, image/sec: 2.489151
+INFO:root:batch size  8, image/sec: 2.698682
+INFO:root:batch size 16, image/sec: 2.978206
+INFO:root:batch size 32, image/sec: 3.100639
+INFO:root:network: resnet-152
+INFO:root:device: gpu(0)
+INFO:root:batch size  1, image/sec: 38.976319
+INFO:root:batch size  2, image/sec: 73.441392
+INFO:root:batch size  4, image/sec: 128.557003
+INFO:root:batch size  8, image/sec: 181.815695
+INFO:root:batch size 16, image/sec: 245.457942
+INFO:root:batch size 32, image/sec: 281.833541
+INFO:root:device: cpu(0)
+INFO:root:batch size  1, image/sec: 0.625464
+INFO:root:batch size  2, image/sec: 0.780372
+INFO:root:batch size  4, image/sec: 0.920450
+INFO:root:batch size  8, image/sec: 1.020771
+INFO:root:batch size 16, image/sec: 1.067187
+INFO:root:batch size 32, image/sec: 1.112372
